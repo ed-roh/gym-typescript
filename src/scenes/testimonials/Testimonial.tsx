@@ -29,7 +29,7 @@ const Testimonial = ({ name, image, title, description }: Props) => {
           alt="testimonials"
         />
       </div>
-      <h5 className="mb-4 text-lg font-bold text-black">{name}</h5>
+      <h5 className="mb-4 text-lg font-bold">{name}</h5>
       <h6 className="mb-4 font-medium text-primary-500">{title}</h6>
       <p className="mb-4">
         <svg
