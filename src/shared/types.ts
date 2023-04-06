@@ -3,6 +3,7 @@ export enum SelectedPage {
   Benefits = "benefits",
   OurClasses = "ourclasses",
   ContactUs = "contactus",
+  Testimonials = "testimonials",
 }
 
 export interface BenefitType {
@@ -15,4 +16,12 @@ export interface ClassType {
   name: string;
   description?: string;
   image: string;
+}
+
+export interface testimonialType {
+  id: number;
+  name: string;
+  image: string;
+  title?: string;
+  description: string;
 }
